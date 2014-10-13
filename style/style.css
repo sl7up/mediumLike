@@ -1,0 +1,171 @@
+body{
+	width: 1440px;
+	font-family: "Gentium Book Basic";
+	margin: auto;
+}
+h1{
+	font-size: 60px;
+
+}
+h2{
+	font-size: 35px;
+	color: #ffffff;
+}
+h4{
+	font-size: 15px;
+	font-family: "Open Sans";
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 600;
+}
+h3{
+	font-size: 30px;
+	font-style: italic;
+	color: #d7d7d7;
+}
+
+h5{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #d7d7d7;
+	font-weight: 600;
+}
+ ol{
+	counter-reset: item ;
+
+
+
+
+}
+ ul{
+	 list-style-type: disc;
+ }
+ol{
+
+list-style-type: decimal;
+
+
+
+}
+
+header{
+	background-image: url("../image/bacground.png");
+	width: 1440px;
+	height: 770px;
+	color: #ffffff;
+}
+
+.container{
+	padding: 550px 0 156px 370px;
+	width: 700px;
+}
+.container h3{
+	margin-top: 10px;
+}
+
+.author{
+	color: #ffffff;
+	font-family: "Open Sans";
+	width: 213px;
+	float: left;
+	margin-top: 20px;
+	line-height: 20px;
+
+}
+.img{
+	margin-top: 35px;
+	width: 42px;
+	float: left;
+}
+
+.container li{
+	display: inline-block;
+	float: right;
+	margin-left: 20px;
+	margin-top: 40px;
+	font-size: 12px;
+}
+
+section{
+	width: 700px;
+	margin: auto;
+}
+
+.text{
+	margin-top: 55px;
+	line-height: 40px;
+	font-size: 22px;
+
+}
+.text blockquote{
+	font-size: 30px;
+	color: #626262;
+	font-style: italic;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.text ul li {
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+.text p{
+	margin-bottom: 40px;
+}
+.top   {
+	text-transform: uppercase;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	font-weight: 700;
+	font-family: "Open Sans";
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-align: center;
+
+}
+.top a{
+	color: #a8a8a8;
+	text-decoration: none;
+}
+.top i{
+	font-size: 20px;
+}
+.before-footer{
+	background-image: url("../image/before_footer.png");
+	color: #2ecc71;
+	text-align: center;
+	height: 252px;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 600;
+
+}
+
+.before-footer p {
+	padding-top: 120px;
+	text-transform: uppercase;
+}
+
+.footer{
+	background-image: url("../image/footer.png");
+	height: 360px;
+}
+.col1,.col2 {
+	float: left;
+	margin-top: 70px;
+
+}
+.col1{
+	margin-left: 60px;
+}
+.col2{
+	margin-left: 400px;
+}
+
+.col1 h2, .col2 h2{
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
