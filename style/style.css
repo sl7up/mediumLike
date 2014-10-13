@@ -30,22 +30,15 @@ h5{
 	color: #d7d7d7;
 	font-weight: 600;
 }
- ol{
-	counter-reset: item ;
 
-
-
-
-}
- ul{
+ul {
+	 list-style-position: inside;
 	 list-style-type: disc;
  }
-ol{
 
-list-style-type: decimal;
+.text li:before{
 
-
-
+	font-size: small;
 }
 
 header{
@@ -62,6 +55,9 @@ header{
 .container h3{
 	margin-top: 10px;
 }
+.container a{
+	color: #ffffff;
+}
 
 .author{
 	color: #ffffff;
@@ -77,6 +73,17 @@ header{
 	width: 42px;
 	float: left;
 }
+.grey{
+
+	color: #e2e2e2;
+	font-size: 12px;
+	text-transform: uppercase;
+	position: absolute;
+	display: inline-block;
+	left: 310px;
+	top: 810px;
+}
+
 
 .container li{
 	display: inline-block;
@@ -95,8 +102,20 @@ section{
 	margin-top: 55px;
 	line-height: 40px;
 	font-size: 22px;
+	width: 700px;
+
 
 }
+.one{
+	color: #e2e2e2;
+	font-style: italic;
+	float: left;
+	width: 50px;
+	position: absolute;
+	display: inline-block;
+	left: 320px;
+}
+
 .text blockquote{
 	font-size: 30px;
 	color: #626262;
@@ -114,9 +133,10 @@ section{
 .text p{
 	margin-bottom: 40px;
 }
+
 .top   {
 	text-transform: uppercase;
-	padding-top: 30px;
+	padding-top: 60px;
 	padding-bottom: 40px;
 	font-weight: 700;
 	font-family: "Open Sans";
@@ -143,9 +163,14 @@ section{
 
 }
 
+
 .before-footer p {
 	padding-top: 120px;
 	text-transform: uppercase;
+}
+.before-footer a{
+	color: #2ecc71;
+	text-decoration: none;
 }
 
 .footer{
@@ -167,5 +192,6 @@ section{
 .col1 h2, .col2 h2{
 	margin-top: 50px;
 	margin-bottom: 15px;
+
 }
 
